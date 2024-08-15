@@ -53,3 +53,11 @@ else:
 
 #enter number here: 1221
 #Palindrome
+
+#Method -2
+x=input("enter here: ")
+rev=a[::-1]
+if a==rev:
+    print("palindrome")
+else:
+    print("not palindrome")
