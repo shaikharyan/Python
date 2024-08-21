@@ -1,6 +1,5 @@
 #loops
 #write a program to find a sum of all the even number upto 50
-from itertools import repeat
 
 sum=0
 for i in range(1,51):

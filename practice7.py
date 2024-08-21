@@ -1,3 +1,5 @@
+#String Problems
+
 a="OOTD.YOLO.ASAP.BRB.GTG.OTW"
 
 #write a program to separate the following string into comma

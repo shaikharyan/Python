@@ -28,7 +28,7 @@ print("Assignment operator")
 x=4
 print(x)
 x+=2
-print()
+print(x)
 x-=2
 print(x)
 x*=2
@@ -40,11 +40,11 @@ b=123
 c="123"
 
 print(a is b)  #True
-print(a is not c) #true
+print(a is not c) #True
 
 print("Bitwise operator")
 a=10
-b=4
+b=8
 print(a&b) #0
 print(a|b) #14
 print(a^b)  #14

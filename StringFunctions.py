@@ -8,30 +8,49 @@ g="1.234"
 
 #isalnum->Return True if all char in the string are alphanumeric
 print(a,a.isalnum())   #a,b,c,d
+print()
 
 #isalpha->Return True if all char in the string are in alphabet
 print(b,b.isalpha()) #a,d
+print()
+
 
 #isdecimal->Return True if all char in the string are in decimal
 print(c,c.isdecimal()) #c
+print()
+
+print(g,g.isdecimal()) #false
+print()
 
 #isdigit->Return True if all char in the string are digits
 print(c,c.isdigit()) #c
+print()
+
+print(g,g.isdigit()) #false
+print()
 
 #isnumeric->Return True if all char in the string are numeric
 print(c,c.isnumeric()) #c
+print()
+
+print(g,g.isnumeric()) #false
+print()
 
 #islower->check string is in lowercase
 print(a,a.lower()) #a
+print()
 
 #isupper->check string is in uppercase
 print(d,d.upper()) #d
+print()
 
 #isspace->Return True if all char in the string are whitespaces
 print(e,e.isspace()) #e
+print()
 
 #istitle->Return True if the string follows the rules of a title.
 print(b,b.istitle()) #a,d,f
+print()
 
 
 #Advanced string functions
