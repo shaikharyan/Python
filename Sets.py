@@ -45,7 +45,7 @@ print(z.issubset(x))  #true
 print(x.issuperset(y))  #false
 print(x.issuperset(z))  #true
 
-#update->Union
+#update->add z set in x
 x.update(z)
 print(x)  #{'Ironman', 'Thor', 'Captain America', 'Hulk'}
 
